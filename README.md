@@ -4,7 +4,7 @@ This Project Shows how to create Menus for 2x16 character LCD for STM32 using st
 
 functions:
 
-1
+1 - To update menus on LCD
 ```c
 void update_menu(void){
    switch (menu) {
@@ -39,7 +39,7 @@ void update_menu(void){
   }
 }
 ```
-2
+2 - To choose betwheen menus.
 ```c
 void executeAction(void) {
   switch (menu) {
