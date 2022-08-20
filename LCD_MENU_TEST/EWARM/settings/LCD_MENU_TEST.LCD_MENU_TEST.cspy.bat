@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\amira\Desktop\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.general.xcl" --backend -f "C:\Users\amira\Desktop\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\lenovo\Documents\MATLAB\STM32\noisegen\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.general.xcl" --backend -f "C:\Users\lenovo\Documents\MATLAB\STM32\noisegen\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\amira\Desktop\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\amira\Desktop\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\lenovo\Documents\MATLAB\STM32\noisegen\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\lenovo\Documents\MATLAB\STM32\noisegen\LCD_MENU_TEST\EWARM\settings\LCD_MENU_TEST.LCD_MENU_TEST.driver.xcl" 
 
 @echo off 
 :end
